@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ruta Crítica</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Ruta Crítica</h1>
+    <form id="formulario">
+      <p>Ingresa actividades con duración y predecesoras (si tiene).</p>
+      <div id="actividades"></div>
+      <button type="button" onclick="agregarActividad()">+ Añadir Actividad</button>
+      <button type="submit">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
