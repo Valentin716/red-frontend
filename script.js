@@ -28,7 +28,7 @@ document.getElementById("formulario").addEventListener("submit", async (e) => {
     actividades.push({ nombre, duracion, predecesoras });
   }
 
-  const res = await fetch("https://tu-api-backend/render/ruta-critica", {
+  const res = await fetch("https://red-proyecto-api.onrender.com/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ actividades })
